@@ -1,0 +1,28 @@
+{
+  "name": "slugify-url-smart",
+  "version": "1.0.2",
+  "description": "A zero-dependency, smart URL slug generator with transliteration and emoji support.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "slug",
+    "slugify",
+    "url",
+    "seo",
+    "transliteration",
+    "emoji"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
